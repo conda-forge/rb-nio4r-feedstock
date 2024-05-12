@@ -1,5 +1,5 @@
 {% set name = "nio4r" %}
-{% set version = "2.5.2" %}
+{% set version = "2.5.4" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: ccc88e7edf9adb15de7deeaa18abb1fd545206daab7c5f46c84194ecf3dad53e
+  sha256: f3e980f504b5dde290c46d5318e52962d1081ad85969b4bbc36299bd66b87cb1
 
 build:
   number: 0
